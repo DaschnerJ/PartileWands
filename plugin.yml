@@ -1,0 +1,9 @@
+name: ParticleWands
+main: io.github.daschnerj.particleWands.ParticleWands
+version: 0.0.1
+commands:
+   wand:
+      description: This is the basic command for Particle Wands.
+      usage: /<command> [args]
+      permission: wand.user
+      permission-message: You don't have <permission>.
